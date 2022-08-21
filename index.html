@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+</head>
+<body>
+
+    <div class="dark-mode">
+        <button class="dark-mode" onclick="darkMode()">Dark Mode</button>
+        <button class="light-mode" onclick="lightMode() ">Light Mode</button>
+    </div>
+    
+    <div class="principal">
+        
+        <div class="tela">
+            <p class="tela"></p>
+        </div>
+
+        <div class="cor-tecla">
+
+            <div onclick="apagarTudo()" class="teclas apagar-tudo">
+                <p>C</p>
+            </div>
+
+            <div onclick="operacao(this)" class="teclas divisao">
+                <p>/</p>
+            </div>
+
+            <div onclick="operacao(this)" class="teclas subtracao">
+                <p>-</p>
+            </div>
+    
+            <br>
+    
+            <div onclick="numero(this)" class="teclas num-7">
+                <p>7</p>
+            </div>
+            <div onclick="numero(this)" class="teclas num-8">
+                <p>8</p>
+            </div>
+            <div onclick="numero(this)" class="teclas num-9">
+                <p>9</p>
+            </div>
+            <div onclick="operacao(this)" class="teclas multiplicacao">
+                <p>*</p>
+            </div>
+            <br>
+    
+            <div onclick="numero(this)" class="teclas num-4">
+                <p>4</p>
+            </div>
+            <div onclick="numero(this)" class="teclas num-5">
+                <p>5</p>
+            </div>
+            <div onclick="numero(this)" class="teclas num-6">
+                <p>6</p>
+            </div>
+            <div onclick="operacao(this)" class="teclas soma">
+                <p>+</p>
+            </div>
+            <br>
+
+            <div onclick="numero(this)" class="teclas num-1">
+                <p>1</p>
+            </div>
+            <div onclick="numero(this)" class="teclas num-2">
+                <p>2</p>
+            </div>
+            <div onclick="numero(this)" class="teclas num-3">
+                <p>3</p>
+            </div>
+            <div onclick="calcular()" class="teclas igual">
+                <p>=</p>
+            </div>  
+            <br>
+            <div onclick="numero(this)" class="teclas num-0">
+                <p>0</p>
+            </div>
+
+            <div class="teclas ponto">
+                <p>.</p>
+            </div>
+          
+        </div>
+        
+    </div>
+
+    <br><br><br><br><br><br><br>
+    
+    <script src="script.js"></script>
+</body>
+</html>

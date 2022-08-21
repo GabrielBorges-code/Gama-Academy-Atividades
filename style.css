@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: linear-gradient(45deg, rgb(51, 91, 123),rgb(27, 42, 61));
+
+}
+
+div.dark-mode button {
+    width: 100px;
+    height: 51px;
+    float: left;
+    margin-top: 1px;
+    margin-left: 25px;
+    background: #00c86f;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: 3px solid rgba(0, 0, 0, 0.9);
+
+}
+
+div.principal {
+    background: rgba(0, 0, 0, 0.9);
+    width: 315px;
+    height: 520px;
+    padding: 15px;
+    margin: 85px auto 0 auto;
+
+}
+
+div.tela p {
+    font-size: 47px;
+    font-weight: bold;
+    color: #051933;
+    display: contents;
+
+}
+
+div.tela p.resultado-erro {
+    font-size: 30px;
+
+}
+
+div.tela {
+    background: hsl(201, 76%, 80%);
+    width: 99%;
+    height: 120px;
+    border-bottom: 10px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 25px 10px 0px 10px;
+    text-align: right;
+
+}
+
+
+div.cor-tecla {
+    background: #00c86f;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.teclas {
+    box-sizing: border-box;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 22.5px;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border: 2px solid #00c86f;
+    cursor: pointer;
+
+}
+
+div.num-0, .num-1, .igual, .num-4, .num-7 {
+    margin-top: 4px;
+}
+
+div.teclas:hover {
+    color: #051933;
+    background: #a3ffbf;
+
+}
+
+div.num-0, div.apagar-tudo{
+    width: 154px;
+}
+
+
+div.igual {
+    height: 154px;
+    float: right;
+    padding-top: 52.5px;
+    background: #079b58;
+    border: 2px solid #079b58;
+
+}
+
+@media screen and (max-width: 480px) {
+  
+    div.dark-mode button {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    
+    }
+    
+}
