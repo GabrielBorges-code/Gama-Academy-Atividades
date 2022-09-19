@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução - Olá Mundo</title>
+</head>
+<body>
+
+    <p id="demo"></p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facilis voluptas nesciunt</p>
+    
+    <p>officia autem eum iusto veniam! Voluptatem dolorum enim sed voluptatum vel. In nostrum accusamus pariatur assumenda libero sed.</p>
+
+    <div class="exemplo">Elemento 1</div>
+    <div class="exemplo">Elemento 2</div>
+
+    <script language="javascript">
+        // document.getElementById("demo").innerHTML = "Olá mundo";
+        document.getElementsByTagName("p")[1].innerHTML = "Olá mundo";
+
+        const colecao = document.getElementsByClassName("exemplo")
+        colecao[1].innerHTML = "teste escrita"
+
+        document.querySelector("p").style.backgroundColor = "red"
+
+
+            // 24
+
+
+    </script>
+</body>
+</html>
